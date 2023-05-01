@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+}
+.container{
+    background:url(pic3.jpg) no-repeat;
+    background-size:cover;
+   background-position: center center;
+    position: relative;
+    margin: auto;
+    height:40vw;
+    width:40vw; 
+}
+.hour,.min,.sec{
+    background-color: black;
+    position:absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+.hour
+{
+    height: 17%;
+    width: 1.5%;
+    left: 49.24%;
+    top: 33.5%;
+    opacity: .9;
+    /* display: none; */
+}
+    
+
+.min{
+    height: 22%;
+    width: 1.5%;
+    left: 49.28%;
+    top: 28.5%;
+    opacity: .9;
+     /* display: none; */
+}
+
+.sec{
+    height: 30%;
+    width: 1%;
+    left: 49.5%;
+    top: 20.5%;
+    opacity: .9;
+    /* display: none; */
+
+}
+  
